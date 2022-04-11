@@ -118,7 +118,7 @@ export class SharedService {
     },
     {
       title: 'Extra',
-      type: 'header'
+      type: 'simple'
     },
     {
       title: 'Documentation',

@@ -89,8 +89,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .bg-200{
     background-color: mat.get-color-from-palette($MASTER-TEM-primary,200);
   }
+  .bg-300{
+    background-color: mat.get-color-from-palette($MASTER-TEM-primary,300);
+  }
   .text-50{
     color:  mat.get-color-from-palette($MASTER-TEM-primary,'50-contrast');
+  }
+  .text-900{
+    color:  mat.get-color-from-palette($MASTER-TEM-primary,'900-contrast');
   }
   // end
   

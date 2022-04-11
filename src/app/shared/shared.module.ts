@@ -6,6 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BackendHeaderComponent } from './backend-header/backend-header.component';
 import { BackendFooterComponent } from './backend-footer/backend-footer.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import {MatSelectModule} from '@angular/material/select';
 
 
 
@@ -14,16 +16,19 @@ import { BackendFooterComponent } from './backend-footer/backend-footer.componen
     HeaderComponent,
     FooterComponent,
     BackendHeaderComponent,
-    BackendFooterComponent
+    BackendFooterComponent,
+    SideNavComponent
   ],
   exports: [
     HeaderComponent,
     FooterComponent,
     BackendHeaderComponent,
-    BackendFooterComponent
+    BackendFooterComponent,
+    SideNavComponent
   ],
   imports: [
     CommonModule,
+    MatSelectModule,
     SharedRoutingModule
   ]
 })
