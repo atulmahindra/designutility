@@ -92,6 +92,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .bg-300{
     background-color: mat.get-color-from-palette($MASTER-TEM-primary,300);
   }
+  .bg-a700{
+    background-color: mat.get-color-from-palette($MASTER-TEM-primary,'A700');
+  }
   .text-50{
     color:  mat.get-color-from-palette($MASTER-TEM-primary,'50-contrast');
   }

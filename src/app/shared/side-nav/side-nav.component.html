@@ -3,11 +3,11 @@
 </div>
 <div class="select_wharhouse_con">
     <div class="sele_wh_titles">Select Warehouse</div>
-    <div>
-        <div class="cust_input">
+    <div class="select_wh_drop ">
+        <div class="cust_input seelct_wh_cus_drop">
             <mat-form-field appearance="fill">
                 <mat-label>State</mat-label>
-                <mat-select>
+                <mat-select disableOptionCentering >
                   <mat-option>None</mat-option>
                   <mat-option *ngFor="let state of states" [value]="state">{{state}}</mat-option>
                 </mat-select>
