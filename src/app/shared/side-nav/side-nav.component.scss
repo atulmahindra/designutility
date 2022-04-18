@@ -12,11 +12,12 @@
     .sele_wh_titles
     {
         @include font-size(0.75);
+        @include font-weight(500);
     }
 }
 .select_wh_drop
 {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .seelct_wh_cus_drop
 {
