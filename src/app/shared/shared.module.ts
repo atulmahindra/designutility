@@ -8,6 +8,8 @@ import { BackendHeaderComponent } from './backend-header/backend-header.componen
 import { BackendFooterComponent } from './backend-footer/backend-footer.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import {MatSelectModule} from '@angular/material/select';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 
 
@@ -22,6 +24,7 @@ import {MatSelectModule} from '@angular/material/select';
   exports: [
     HeaderComponent,
     FooterComponent,
+    FlexLayoutModule,
     BackendHeaderComponent,
     BackendFooterComponent,
     SideNavComponent
@@ -29,6 +32,7 @@ import {MatSelectModule} from '@angular/material/select';
   imports: [
     CommonModule,
     MatSelectModule,
+    FlexLayoutModule,
     SharedRoutingModule
   ]
 })
