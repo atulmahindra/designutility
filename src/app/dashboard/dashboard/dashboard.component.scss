@@ -37,7 +37,7 @@
 
 table {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
     box-shadow: none;
   }
   .mat-row:nth-child(even){
@@ -46,4 +46,31 @@ table {
         
 .mat-row:nth-child(odd){
     background-color: #e4e4e4;
+}
+td.mat-cell
+{
+    border: none;
+}
+
+
+.table_wrap
+{
+    background-color: #fff;
+    margin-top: 15px;
+}
+
+.click_data
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data_view_ds
+{
+    text-align: center;
+    cursor: pointer;
+    img{width: 80px;}
+    h3{font-weight: 400;}
 }
