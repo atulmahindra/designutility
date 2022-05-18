@@ -264,7 +264,8 @@
               padding-left: 55px;
   
               a {
-                  @include padding(5px,0,5px,0);
+                  @include padding(8px,0,8px,0);
+                  @include font-size(0.80);
                 // &:before {
                 //   content: "\f111";
                 //   font-family: "Font Awesome 5 Free";

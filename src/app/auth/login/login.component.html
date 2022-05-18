@@ -8,7 +8,9 @@
     <div class="bg-50 login_box">
         <div class="login_box_inn">
             <img class="loin_log_img" src="../../../assets/images/new_logo.png">
-            <div class="login_form">
+            <form  autocomplete="off"
+            autocomplete="false"
+            autocorrect="off"class="login_form">
                 <div class="text-50 log_titile">Login with your Credentials to access the warehouse</div>
                 
                 <!-- <div class="cust_input">
@@ -21,13 +23,17 @@
                 <div class="cust_input">
                     <mat-form-field color="primary"  appearance="fill" >
                         <mat-label>Enter User name</mat-label>
-                        <input matInput placeholder="Enter User name" autocomplete="new-password" >
+                        <input matInput placeholder="Enter User name"  autocomplete="off"
+                        autocomplete="false"
+                        autocorrect="off"  >
                       </mat-form-field>
                 </div>
                 <div class="cust_input">
                     <mat-form-field appearance="fill">
                         <mat-label>Enter Password</mat-label>
-                        <input autocomplete="off" matInput [type]="hide ? 'password' : 'text'" autocomplete="new-password">
+                        <input matInput [type]="hide ? 'password' : 'text'"  autocomplete="off"
+                        autocomplete="false"
+                        autocorrect="off" >
                         
                       </mat-form-field>
                       <div (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" class="pass_view_icon">
@@ -58,7 +64,7 @@
                         <button mat-flat-button color="primary"><img class="play_bt" src="../../../assets/images/play_bt.png"> Watch Now</button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
     </div>
