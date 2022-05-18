@@ -5,15 +5,21 @@
         <div class="duscript_sub">Order<span>ORDER PROCESS</span></div>
     </div>
     <div fxLayout="row" fxLayoutAlign="end center">
-      
+      <div>
+        
+      </div>
         <div class="cust_input_datepick">
-          <mat-form-field appearance="fill">      
-            <mat-label>Select Start date - End date</mat-label>      
+          <mat-form-field   appearance="fill">      
+            <mat-label>Start date - End date</mat-label>      
             <mat-date-range-input [rangePicker]="picker">      
               <input matStartDate placeholder="Start date">      
               <input matEndDate placeholder="End date">      
             </mat-date-range-input>      
-            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>      
+            <!-- <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>       -->
+            <mat-datepicker-toggle  [disableRipple]="true" matSuffix [for]="picker">
+              <div matDatepickerToggleIcon><img src="../../../assets/images/calendar_icon.png" width="20px"></div>
+            </mat-datepicker-toggle>
+           
             <mat-date-range-picker #picker></mat-date-range-picker>      
           </mat-form-field>
                 </div>
