@@ -2,12 +2,12 @@
 <div class="bg-100 login_warp"  fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutAlign="center none" fxFlex="100%" fxFlex.gt-sm="100%"  >
 
     <div  fxLayout="column" fxFlex="55%" fxLayoutAlign="end"  fxHide.sm fxHide.xs>
-        <img class="login_img" src="../../../assets/images/login_screen.png">
+        <img class="login_img" src="./assets/images/login_screen.png">
     </div>
     <div fxLayout="column" fxFlex="45%"  fxLayoutAlign="center start">
     <div class="bg-50 login_box">
         <div class="login_box_inn">
-            <img class="loin_log_img" src="../../../assets/images/new_logo.png">
+            <img class="loin_log_img" src="./assets/images/new_logo.png">
             <form  autocomplete="off"
             autocomplete="false"
             autocorrect="off"class="login_form">
@@ -37,7 +37,7 @@
                         
                       </mat-form-field>
                       <div (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide" class="pass_view_icon">
-                          <img src="../../../assets/images/{{hide ? 'pass_view_icon.png' : 'pass_view_icon.png'}}">
+                          <img src="./assets/images/{{hide ? 'pass_view_icon.png' : 'pass_view_icon.png'}}">
                       </div>
                       <!-- <button   >
                         
@@ -61,7 +61,7 @@
                 <div class="video_cont"  fxLayout="row" fxLayoutAlign="space-between center" >
                     <div class="vid_text" fxFlex="65">How to use WMS, click here to watch the tutorial. </div>
                     <div class="cust_input " fxFlex="35" fxLayout="row" fxLayoutAlign="end center" > 
-                        <button mat-flat-button color="primary"><img class="play_bt" src="../../../assets/images/play_bt.png"> Watch Now</button>
+                        <button mat-flat-button color="primary"><img class="play_bt" src="./assets/images/play_bt.png"> Watch Now</button>
                     </div>
                 </div>
             </form>
