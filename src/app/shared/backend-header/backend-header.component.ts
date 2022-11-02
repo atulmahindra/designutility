@@ -6,13 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./backend-header.component.scss']
 })
 export class BackendHeaderComponent implements OnInit {
-arr_class = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
-  view_toggel(){
-    this.arr_class = !this.arr_class;
-    console.log(this.arr_class)
-  }
+ 
 }

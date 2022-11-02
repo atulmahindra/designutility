@@ -1,22 +1,20 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { SharedService } from 'src/app/shared/shared.service';
+import { Component,  OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-warehouse-list',
   templateUrl: './warehouse-list.component.html',
   styleUrls: ['./warehouse-list.component.scss']
 })
-export class WarehouseListComponent implements OnInit, OnDestroy {
+export class WarehouseListComponent implements OnInit {
 
-  constructor(private _sharserv:SharedService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this._sharserv.view_head.next(false)
+   
     
   }
-  ngOnDestroy(): void {
-    this._sharserv.view_head.next(true)
-  }
+ 
 
   
 }
